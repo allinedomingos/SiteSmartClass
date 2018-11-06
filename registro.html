@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="pt-BR">  
+  <html>
+  <head> 
+     <meta charset="UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>SmartClass</title>
+     <link href="layout.css" rel="stylesheet" type="text/css"/>
+ </head>
+<body> 
+  <pre width="30"> </pre> 
+<center><img src="criando.png"  align="center" width="70"/><center>   
+         <h2>Cadastro</h2>
+         <h5>Preencha o formulário abaixo para cadastrar novo usuário</h5>         
+   <div class="form"> 
+    <form class="login-form" action="cadastra.php" method="POST">
+      <input type="text" placeholder="Usuário" name="login"/>
+      <input type="text" placeholder="E-mail" name="email"/>
+      <input type="text" placeholder="Matricula" name="matricula"/>
+      <input type="password" placeholder="Senha" name="senha"/>
+     <h3> É professor?</h3>
+     <ul class="radio-button">
+    <li class="radio-but um">
+    <input name="radio-but" type="radio" id="bol" value ="sim"/>
+    <label for="sim"><h4>Sim</h4></label>
+  </li>
+
+  <li class="radio-but dois">
+    <input name="radio-but" type="radio" id="bol" value="nao"/>
+    <label for="nao"><h4>Não</h4></label>
+  </li>
+</ul>
+
+    
+      <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

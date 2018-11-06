@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+h1,h5,h2{
+      line-height: 10px;
+}
+h3{
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 12px;
+     color:#4CAF50;
+}
+h4 {
+    color:#A9A9A9;
+    font-size: 10.5px;
+    line-height: 2px;
+}
+
+h1,h2,h4{
+     
+       font-family: sans-serif;
+}
+h1,h2,h5 {
+       text-align: center;
+       color:  #FFFFFF
+}
+.login-page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  /*background: #43A047;*/
+  cursor: pointer;
+  background: no-repeat left #2375E6;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color:#4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+.button1 {
+	font-size:14px;
+	font-family:"Roboto",sans-serif;
+        text-transform: uppercase;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+	border-radius:8px;
+	border:1px solid #dcdcdc;
+	padding:9px 18px;
+	text-decoration:none;
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	background:-ms-linear-gradient( top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ededed), color-stop(100%, #dfdfdf) );
+	background-color:#ededed;
+	color:#777777;
+	display:inline-block;
+	text-shadow:1px 1px 0px #ffffff;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;
+ 	box-shadow:inset 1px 1px 0px 0px #ffffff;
+}
+.form button1:hover,.form button1:active,.form button1:focus {
+  background: #43A047;
+
+}
+
+.radio-button {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.radio-button:after {
+  content: "";
+  clear: both;
+}
+
+.radio-but {
+  float: left;
+  height: 60px;
+  position: relative;
+  width: 148px;
+}
+
+.radio-but + .radio-but {
+  margin-left: 25px;
+}
+
+
+#pesquisafsm-caixa {
+background: #eee; padding:10px; border:0 none; width:320px;
+}
+#pesquisafsm-botao {
+border: 1px solid #222;
+color: #eee; 
+background: url(http://i.imgur.com/cz4sguf.png) no-repeat left #F4A460;
+margin-left: -3px;
+color:#fff;
+font: 'trebuchet ms', trebuchet;
+padding:10px 10px 10px 22px;
+border:0 none;
+font-weight:bold;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+#pesquisafsm-botao:hover {
+cursor: pointer;
+background:  url(http://i.imgur.com/cz4sguf.png) no-repeat left #2375E6;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background-color: #DAA520; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+cursor: pointer;
+background: no-repeat left #2375E6;
